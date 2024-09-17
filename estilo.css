@@ -1,0 +1,73 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5; 
+    margin: 0;
+    padding: 0;
+}
+
+
+form {
+    background-color: #dcd0ff; 
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2); 
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+input[type="text"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    background-color: #e63946; 
+    color: #ffffff; 
+    border: none;
+    padding: 10px 20px; 
+    border-radius: 4px;
+    cursor: pointer; 
+    font-size: 16px; 
+    transition: background-color 0.3s; 
+}
+
+input[type="submit"]:hover {
+    background-color: #d62839;
+}
+select {
+        width: calc(100% - 22px);
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        font-size: 16px;
+    }
+.ResumodoPedido {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff; 
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); 
+    font-size: 18px; 
+    color: #333; 
+}
+.ResumodoPedido h2 {
+    margin-top: 0;
+    color: #e63946; 
+}
+
+.ResumodoPedido p {
+    margin: 10px 0;
+}
+
+.ResumodoPedido {
+    color: #333;
+}
